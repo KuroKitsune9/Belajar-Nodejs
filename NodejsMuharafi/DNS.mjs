@@ -1,6 +1,6 @@
 import dns from "dns/peromises";
 
-const addres = await dns.lookup("www.google.com");
+const address = await dns.lookup("www.progammerzamannow.com");
 
-console.info(addres.addres);
-console.info(addres.family);
+console.info(address.addres);
+console.info(address.family);
